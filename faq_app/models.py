@@ -16,7 +16,6 @@ class FAQ(models.Model):
         translator = Translator()
         try:
             translation = await translator.translate(text, dest=dest_lang)
-            print(translation.text)
             return translation.text
         except Exception as e:
             print(f"Translation failed: {e}")
@@ -27,7 +26,6 @@ class FAQ(models.Model):
     
     def save(self, *args, **kwargs):
         if not self.question_hi:
-            print("Saving in hindi")
             self.question_hi = self.translate_text(self.question, 'hi')
         super().save(*args, **kwargs)
         
