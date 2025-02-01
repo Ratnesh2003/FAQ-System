@@ -8,7 +8,19 @@ class FAQList(generics.ListAPIView):
     serializer_class = FAQSerializer
 
     def get_queryset(self):
-        
-        lang_code = self.request.query_params.get('lang', 'en')
-        queryset = FAQ.objects.all()
+        return FAQ.objects.all()
+
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        context['lang_code'] = self.request.query_params.get('lang', 'en')
+        return context
+
+class FAQDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = FAQ.objects.all()
+    serializer_class = FAQSerializer
+
+    def get_serializer_context(self):
+        context = super().get_serializer_context()
+        context['lang_code'] = self.request.query_params.get('lang', 'en')
+        return context
 
