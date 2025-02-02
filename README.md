@@ -13,10 +13,21 @@ It supports following features:
 - `docker-compose.yaml` file for running up redis.
 - Unit tests using `pytest`.
 
+<h2> Deployment Links </h2>
+
+`Note:` I have not configured the HTTPS on the EC2 instance for now, make sure to use `HTTP` instead of `HTTPS` while accessing the endpoints.
+
+`Admin Username:` admin
+<br>
+`Admin Password:` password
+
+http://ec2-13-201-130-87.ap-south-1.compute.amazonaws.com:8080/admin/
+
+http://ec2-13-201-130-87.ap-south-1.compute.amazonaws.com:8080/api/faq/?lang=hi
 
 
 
-<h2 align="center">PREVIEW</h2>
+<h2>PREVIEW</h2>
 
 <p align="center">
 <img src="https://ucarecdn.com/8c9d9d14-fed1-4015-8d71-360ecfc31a18/Screenshot20250202150741.png" alt="Screenshot-2025-02-02-150741" width="49%">
@@ -30,8 +41,7 @@ It supports following features:
 <img src="https://ucarecdn.com/c8c47f0e-6891-4844-a7c2-b2ea1153df1b/Screenshot20250202151041.png" alt="Screenshot-2025-02-02-151321" width="49%">
 </p>
 
-
-<h2 align="center">Installation using Docker Compose</h2>
+<h2>Installation using Docker Compose</h2>
 
 Follow these steps to set up and run FAQ Translation APIs using Docker Compose:
 
@@ -78,7 +88,7 @@ Use the following credentials to access the admin panel:
 - **Password:** password
 
 
-<h2 align="center">Installation without Docker Compose</h2>
+<h2>Installation without Docker Compose</h2>
 
 Follow these steps to set up and run FAQ Translation APIs without Docker Compose:
 
