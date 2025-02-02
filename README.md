@@ -19,11 +19,15 @@ It supports following features:
 <h2 align="center">PREVIEW</h2>
 
 <p align="center">
-  <img src="https://i.ibb.co/cSr6cH6y/Screenshot-2025-02-02-150741.png" alt="Screenshot-2025-02-02-150741" border="0">
-<img src="https://i.ibb.co/fz6Fc5sq/Screenshot-2025-02-02-151041.png" alt="Screenshot-2025-02-02-151041" border="0">
-<img src="https://i.ibb.co/QFGrWnBm/Screenshot-2025-02-02-151210.png" alt="Screenshot-2025-02-02-151210" border="0">
-<img src="https://i.ibb.co/7tzdDf0x/Screenshot-2025-02-02-151249.png" alt="Screenshot-2025-02-02-151249" border="0">
-<img src="https://i.ibb.co/TxfVcw73/Screenshot-2025-02-02-151321.png" alt="Screenshot-2025-02-02-151321" border="0">
+<img src="https://ucarecdn.com/8c9d9d14-fed1-4015-8d71-360ecfc31a18/Screenshot20250202150741.png" alt="Screenshot-2025-02-02-150741" width="49%">
+<img src="https://ucarecdn.com/c8c47f0e-6891-4844-a7c2-b2ea1153df1b/Screenshot20250202151041.png" alt="Screenshot-2025-02-02-151041" width="49%">
+</p>
+<p align="center">
+<img src="https://ucarecdn.com/49b7dd2e-fe73-4df4-8e22-b0d8f02052e5/Screenshot20250202151210.png" alt="Screenshot-2025-02-02-151210" width="49%">
+<img src="https://ucarecdn.com/325105b0-f446-4480-863b-ac07ba3a8cf8/Screenshot20250202151249.png" alt="Screenshot-2025-02-02-151249" width="49%">
+</p>
+<p align="center">
+<img src="https://ucarecdn.com/dd7e44a5-4500-46f7-8325-5a22bf39064a/Screenshot20250202151321.png" alt="Screenshot-2025-02-02-151321" width="49%">
 </p>
 
 
