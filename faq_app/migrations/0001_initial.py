@@ -8,17 +8,27 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='FAQ',
+            name="FAQ",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('question', models.TextField(verbose_name='Question')),
-                ('answer', ckeditor.fields.RichTextField(verbose_name='Answer')),
-                ('question_hi', models.TextField(blank=True, verbose_name='Question (Hindi)')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("question", models.TextField(verbose_name="Question")),
+                ("answer", ckeditor.fields.RichTextField(verbose_name="Answer")),
+                (
+                    "question_hi",
+                    models.TextField(blank=True, verbose_name="Question (Hindi)"),
+                ),
             ],
         ),
     ]
